@@ -5,6 +5,9 @@ site/dist/
 site/dev.log
 site/.npmrc
 site/screenshots/mobile-test-*.png
+site/studio/node_modules/
+site/studio/dist/
+site/studio/.sanity/
 
 .vercel/
 .env

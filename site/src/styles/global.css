@@ -49,6 +49,7 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 3.5vw, 3.5rem); line-height: 1.
 .main-nav a:hover { color: var(--green); }
 .header-phone { display: flex; align-items: center; gap: 8px; color: var(--green); font-weight: 600; }
 .menu-button { display: none; border: 0; color: var(--green); background: transparent; font-size: 1.8rem; }
+.store-notice { display: flex; min-height: 42px; align-items: center; justify-content: center; gap: 9px; margin: 0; padding: 8px 20px; color: var(--paper); background: var(--danger); font-size: .8rem; text-align: center; }
 
 .hero { display: grid; min-height: 720px; grid-template-columns: 1fr 1fr; align-items: stretch; }
 .hero-copy { display: flex; flex-direction: column; justify-content: center; padding: 74px 4vw 74px 0; }
@@ -106,6 +107,7 @@ h2 { margin-bottom: 18px; font-size: clamp(2rem, 3.5vw, 3.5rem); line-height: 1.
 .filter-button { min-width: 72px; padding: 9px 16px; border: 1px solid var(--line); color: var(--ink-soft); background: transparent; cursor: pointer; }
 .filter-button.is-active, .filter-button:hover { border-color: var(--green); color: var(--paper); background: var(--green); }
 .product-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.product-empty { grid-column: 1 / -1; margin: 0; padding: 54px 24px; border-block: 1px solid var(--line); color: var(--ink-soft); text-align: center; }
 .product-card[hidden] { display: none; }
 .product-open { position: relative; display: grid; width: 100%; padding: 0 0 14px; border: 0; color: inherit; background: transparent; text-align: left; cursor: pointer; }
 .product-open img { aspect-ratio: 1; margin-bottom: 18px; object-fit: cover; transition: transform .35s; }

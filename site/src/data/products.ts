@@ -12,9 +12,10 @@ export interface Product {
   category: ProductCategory;
   price: number;
   priceCheckedAt: string;
-  image: ImageMetadata;
+  image: ImageMetadata | string;
   description: string;
   material: string;
+  isSample: boolean;
 }
 
 export const products: Product[] = [
@@ -27,6 +28,7 @@ export const products: Product[] = [
     image: ringImage,
     description: "단정한 여섯 발 세팅으로 빛을 또렷하게 살린 클래식 반지입니다.",
     material: "화이트골드 · 큐빅 0.3ct",
+    isSample: true,
   },
   {
     id: "sample-necklace",
@@ -37,6 +39,7 @@ export const products: Product[] = [
     image: necklaceImage,
     description: "매일 편안하게 착용하기 좋은 작은 원포인트 목걸이입니다.",
     material: "14K 골드 · 큐빅",
+    isSample: true,
   },
   {
     id: "sample-wedding",
@@ -47,6 +50,7 @@ export const products: Product[] = [
     image: weddingImage,
     description: "잔잔한 망치 질감이 손끝의 온기를 담아내는 한 쌍의 밴드입니다.",
     material: "14K 로즈골드 · 2개 세트",
+    isSample: true,
   },
   {
     id: "sample-bracelet",
@@ -57,6 +61,7 @@ export const products: Product[] = [
     image: braceletImage,
     description: "묵직한 체인 결을 정교하게 다듬은 순금 팔찌입니다.",
     material: "순금 24K · 11.25g",
+    isSample: true,
   },
   {
     id: "sample-medallion",
@@ -67,6 +72,7 @@ export const products: Product[] = [
     image: medallionImage,
     description: "차분한 꽃 문양을 새긴 선물용 순금 메달입니다.",
     material: "순금 24K · 3.75g",
+    isSample: true,
   },
 ];
 

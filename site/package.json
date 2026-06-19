@@ -1,0 +1,24 @@
+{
+  "name": "namwon-gold-landing",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro check && astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-kr": "^5.2.8",
+    "@fontsource/noto-serif-kr": "^5.2.8",
+    "@phosphor-icons/web": "^2.1.2",
+    "astro": "^5.10.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "playwright": "^1.61.0",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,12 @@
+site/node_modules/
+site/.npm-cache/
+site/.astro/
+site/dist/
+site/dev.log
+site/.npmrc
+site/screenshots/mobile-test-*.png
+
+.vercel/
+.env
+.env.*
+!.env.example
